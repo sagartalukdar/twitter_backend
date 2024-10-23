@@ -1,4 +1,4 @@
-package com.react.Config;
+,"https://twitter-frontend-zeta-lovat.vercel.app/"package com.react.Config;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -39,7 +39,7 @@ public class AppConfig {
 			@Override
 			public CorsConfiguration getCorsConfiguration(HttpServletRequest request) {
 				CorsConfiguration ccf=new CorsConfiguration();
-				ccf.setAllowedOrigins(Arrays.asList("http://localhost:3000/"));
+				ccf.setAllowedOrigins(Arrays.asList("http://localhost:3000/","https://twitter-frontend-zeta-lovat.vercel.app/"));
 				ccf.setAllowedMethods(Collections.singletonList("*"));
 				ccf.setAllowedHeaders(Collections.singletonList("*"));
 				ccf.setExposedHeaders(Arrays.asList("Authorization"));
