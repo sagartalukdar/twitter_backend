@@ -44,7 +44,7 @@ public class AppConfig {
 				ccf.setAllowedHeaders(Collections.singletonList("*"));
 				ccf.setExposedHeaders(Arrays.asList("Authorization"));
 				ccf.setAllowCredentials(true);
-				ccf.setMaxAge(3600L);
+				ccf.setMaxAge(36000000L);
 				return ccf;
 			}
 		};
