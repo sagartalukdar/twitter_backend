@@ -1,4 +1,4 @@
-,"https://twitter-frontend-zeta-lovat.vercel.app/"package com.react.Config;
+package com.react.Config;
 
 import java.util.Arrays;
 import java.util.Collections;
